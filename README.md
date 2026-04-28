@@ -1,6 +1,6 @@
 # DAC Sorbent LCA Model 
 
-These files represent the full process-based model for direct air capture (DAC) sorbent production and life-cycle assessment.
+These files represent the full process-based model for direct air capture (DAC) solid adorbent production and life-cycle assessment.
 
 ## 1) Python Version
 
