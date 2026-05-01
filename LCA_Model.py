@@ -737,11 +737,6 @@ PEI_MC_mass_df = mcs.monte_carlo_statistics_mass(PEI_results_Dic, Adsorption_Per
 Support_MC_mass_df = mcs.monte_carlo_statistics_mass(Support_results_Dic, Adsorption_Performance_Dic, "Support", scenarios)
 Sorbent_MC_mass_df = mcs.monte_carlo_statistics_mass(Sorbent_results_Dic, Adsorption_Performance_Dic, "Sorbent", scenarios)
 
-# Solvent Recovery Mass Loss per step
-Aziridine_MC_solvent_recovery_df = mcs.monte_carlo_statistics_mass_emission(Aziridine_solvents_recovery_dic, Adsorption_Performance_Dic, scenarios, "Aziridine")
-Support_MC_solvent_recovery_df = mcs.monte_carlo_statistics_mass_emission(Support_solvents_recovery_dic, Adsorption_Performance_Dic, scenarios, "Support")
-Sorbent_MC_solvent_recovery_df = mcs.monte_carlo_statistics_mass_emission(Sorbent_solvents_recovery_dic, Adsorption_Performance_Dic, scenarios, "Sorbent")
-
 # Life Cycle Inventory (LCI) per stage
 Aziridine_MC_input_mass_df = mcs.monte_carlo_statistics_input_mass(Aziridine_mass_input_dic, Adsorption_Performance_Dic, scenarios, "Aziridine")
 PEI_MC_input_mass_df = mcs.monte_carlo_statistics_input_mass(PEI_mass_input_dic, Adsorption_Performance_Dic, scenarios, "PEI")

@@ -1,6 +1,6 @@
 # DAC Sorbent LCA Model 
 
-These files represent the full process-based model for direct air capture (DAC) solid adorbent production and life-cycle assessment.
+These files represent the full process-based model for direct air capture (DAC) sorbent production and life-cycle assessment.
 
 ## 1) Python Version
 
@@ -106,13 +106,12 @@ After changing `s`, rerun `LCA_Model.py` to propagate the change through all out
 - Keep file names unchanged unless you also update import lines.
 - Run from inside the folder you saved the files so relative output file paths are created there.
 - If you change core assumptions, rerun the full pipeline to keep outputs consistent.
-- When adjusting parameters, such as sorbent lifetime, make sure to save prior resulted excel files in a separate folder to not be overwritten.
 
 ## 7) For LCA modellers:
 
 This model is easy to adapt for alternative assumptions and comparative LCA studies. The most practical updates are:
 
-- **Scenario design (`Scenarios.py`)**: add or edit scenarios for batch size, scale, sorbent loading, and pathway definitions. Make sure to update scenario range in LCA_Model.py file.
+- **Scenario design (`Scenarios.py`)**: add or edit scenarios for batch size, scale, sorbent loading, and pathway definitions.
 - **Monte Carlo scope (`LCA_Model.py`)**: change `mcs_number` and scenario filters to balance runtime vs uncertainty resolution.
 - **Mass/yield assumptions (`Mass_Function.py`)**: update step yields, recoveries, and conversion logic to represent new process data.
 - **Adsorption performance assumptions (`Adsorption_Performance.py`)**: adjust sorbent lifetime factor `s`, cycle times, and adsorption capacity values for sensitivity cases.
