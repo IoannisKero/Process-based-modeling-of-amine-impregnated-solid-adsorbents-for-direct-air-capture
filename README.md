@@ -65,7 +65,7 @@ pip install numpy pandas CoolProp tqdm openpyxl
   Utility conversion/saving helpers for energy outputs and tidy result tables.
 
 - `Chromium_Nitrate_Production.py`  
-  Standalone calculation script for chromium nitrate production energy assumptions (supporting analysis script, not the main pipeline entrypoint).
+  Standalone calculation script for chromium nitrate production energy assumptions (related to LCI for MIL-101(Cr) support).
 
 ## 4) Adsorption Performance Sensitivity Note
 
