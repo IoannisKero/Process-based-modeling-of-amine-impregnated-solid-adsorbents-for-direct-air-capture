@@ -106,6 +106,7 @@ After changing `s`, rerun `LCA_Model.py` to propagate the change through all out
 - Keep file names unchanged unless you also update import lines.
 - Run from inside the folder you saved the files so relative output file paths are created there.
 - If you change core assumptions, rerun the full pipeline to keep outputs consistent.
+- If you adjust any parameters and rerun the model, save previous Excel output files in a separate folder to avoid overwriting them.
 
 ## 7) For LCA modellers:
 
