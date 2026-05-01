@@ -118,3 +118,7 @@ This model is easy to adapt for alternative assumptions and comparative LCA stud
 - **Process operating conditions (`Chemical_Properties.py`, `Physical_Properties.py`)**: revise temperatures, times, efficiencies, and equipment power assumptions.
 - **Energy model assumptions (`Energy_Functions.py`)**: tune unit-operation constants and correlations (for example loss factors or recovery assumptions).
 - **LCA factor sets (`Impact_Assessment.py`)**: replace environmental impact factor dictionaries with region-specific or database-updated factors.
+
+## 8) Citation
+
+If you use this code to generate results for a publication (journal article, conference paper, thesis, report, or other public dissemination), please cite the corresponding paper from this work.
