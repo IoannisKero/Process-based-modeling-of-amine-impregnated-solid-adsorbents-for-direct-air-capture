@@ -1628,7 +1628,7 @@ def monte_carlo_statistics_direct_energy(energy_dictionary, adsorption_performan
     return MC_stats_df
 
 # ========================================================================================================================
-# STEP 6: Monte Carlo Simulations - Adsorption Performance Results
+# STEP 5: Monte Carlo Simulations - Adsorption Performance Results
 # ========================================================================================================================
 
 def monte_carlo_statistics_adsorption_performance(performance_results, mcs_number):
