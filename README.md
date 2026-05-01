@@ -1,4 +1,4 @@
-# DAC Sorbent LCA Model 
+# Process-based adsorbent manufacturing LCA model.
 
 These files represent the full process-based model for direct air capture (DAC) sorbent production and life-cycle assessment.
 
