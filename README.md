@@ -1,6 +1,6 @@
 # Process-based adsorbent manufacturing LCA model.
 
-These files represent the full process-based model for direct air capture (DAC) sorbent production and life-cycle assessment.
+These files represent the full process-based model for direct air capture (DAC) adsorbent production and life-cycle assessment.
 
 ## 1) Python Version
 
