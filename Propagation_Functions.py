@@ -16,8 +16,7 @@ Author: Ioannis Keroglou
 Affiliation: School of Sustainability Engineering and Environmental Engineering,
              Purdue University, West Lafayette, IN, USA 
 Date: April 2026
-Project: Process-based modelling of direct air capture sorbent production:
-         A comparative life cycle assessment of amine-impregnated solid adsorbents
+Project: Process-based lifecycle climate, energy, water and material constraints of solid adsorbent production for gigaton-scale direct air capture.
 """
 
 # Import Libraries
